@@ -1,0 +1,20 @@
+[0KRunning with gitlab-runner 13.8.0 (775dd39d)
+[0;m[0K  on docker-runner ckd-HWTy
+[0;msection_start:1613586852:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
+[0;m[0KUsing Docker executor with image alpine:latest ...
+[0;m[0KAuthenticating with credentials from /root/.docker/config.json
+[0;m[0KPulling docker image alpine:latest ...
+[0;m[0KUsing docker image sha256:e50c909a8df2b7c8b92a6e8730e210ebe98e5082871e66edd8ef4d90838cbd25 for alpine:latest with digest alpine@sha256:08d6ca16c60fe7490c03d10dc339d9fd8ea67c6466dea8d558526b1330a85930 ...
+[0;msection_end:1613586860:prepare_executor[0Ksection_start:1613586860:prepare_script[0K[0K[36;1mPreparing environment[0;m
+[0;mRunning on runner-ckd-hwty-project-2-concurrent-0 via 0d419e5de8cf...
+section_end:1613586861:prepare_script[0Ksection_start:1613586861:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
+[0;m[32;1mFetching changes with git depth set to 50...[0;m
+Reinitialized existing Git repository in /builds/root/cicd-telkomsel/.git/
+[32;1mChecking out ba614cb2 as master...[0;m
+
+[32;1mSkipping Git submodules setup[0;m
+section_end:1613586863:get_sources[0Ksection_start:1613586864:step_script[0K[0K[36;1mExecuting "step_script" stage of the job script[0;m
+[0;m[32;1m$ echo "Hello Build"[0;m
+Hello Build
+section_end:1613586865:step_script[0K[32;1mJob succeeded
+[0;m

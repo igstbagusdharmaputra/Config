@@ -1,0 +1,16 @@
+2021-02-17_08:04:53.29884 253:C 17 Feb 2021 08:04:53.298 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-17_08:04:53.29896 253:C 17 Feb 2021 08:04:53.298 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=253, just started
+2021-02-17_08:04:53.29897 253:C 17 Feb 2021 08:04:53.298 # Configuration loaded
+2021-02-17_08:04:53.30016 253:M 17 Feb 2021 08:04:53.300 * Running mode=standalone, port=0.
+2021-02-17_08:04:53.30017 253:M 17 Feb 2021 08:04:53.300 # Server initialized
+2021-02-17_08:04:53.30018 253:M 17 Feb 2021 08:04:53.300 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2021-02-17_08:04:53.30018 253:M 17 Feb 2021 08:04:53.300 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-17_08:04:53.30204 253:M 17 Feb 2021 08:04:53.301 * DB loaded from disk: 0.002 seconds
+2021-02-17_08:04:53.30205 253:M 17 Feb 2021 08:04:53.301 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-02-17_08:08:48.94349 253:signal-handler (1613549328) Received SIGTERM scheduling shutdown...
+2021-02-17_08:08:49.04982 253:M 17 Feb 2021 08:08:49.046 # User requested shutdown...
+2021-02-17_08:08:49.04986 253:M 17 Feb 2021 08:08:49.046 * Saving the final RDB snapshot before exiting.
+2021-02-17_08:08:49.06317 253:M 17 Feb 2021 08:08:49.063 * DB saved on disk
+2021-02-17_08:08:49.06319 253:M 17 Feb 2021 08:08:49.063 * Removing the pid file.
+2021-02-17_08:08:49.06320 253:M 17 Feb 2021 08:08:49.063 * Removing the unix socket file.
+2021-02-17_08:08:49.06320 253:M 17 Feb 2021 08:08:49.063 # Redis is now ready to exit, bye bye...

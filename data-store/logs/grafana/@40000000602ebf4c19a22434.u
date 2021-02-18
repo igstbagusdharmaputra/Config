@@ -1,0 +1,30 @@
+2021-02-18_19:12:36.58759 t=2021-02-18T19:12:36+0000 lvl=info msg="Starting Grafana" logger=server version=7.3.6 commit=ea06633c34 branch=HEAD compiled=2020-12-14T09:19:44+0000
+2021-02-18_19:12:36.59412 t=2021-02-18T19:12:36+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/conf/defaults.ini
+2021-02-18_19:12:36.59420 t=2021-02-18T19:12:36+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/grafana.ini
+2021-02-18_19:12:36.59498 t=2021-02-18T19:12:36+0000 lvl=info msg="Path Home" logger=settings path=/var/opt/gitlab/grafana
+2021-02-18_19:12:36.59503 t=2021-02-18T19:12:36+0000 lvl=info msg="Path Data" logger=settings path=/var/opt/gitlab/grafana/data
+2021-02-18_19:12:36.59507 t=2021-02-18T19:12:36+0000 lvl=info msg="Path Logs" logger=settings path=/var/log/gitlab/grafana
+2021-02-18_19:12:36.59511 t=2021-02-18T19:12:36+0000 lvl=info msg="Path Plugins" logger=settings path=/var/opt/gitlab/grafana/data/plugins
+2021-02-18_19:12:36.59515 t=2021-02-18T19:12:36+0000 lvl=info msg="Path Provisioning" logger=settings path=/var/opt/gitlab/grafana/provisioning
+2021-02-18_19:12:36.59519 t=2021-02-18T19:12:36+0000 lvl=info msg="App mode production" logger=settings
+2021-02-18_19:12:36.59839 t=2021-02-18T19:12:36+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+2021-02-18_19:12:36.60045 t=2021-02-18T19:12:36+0000 lvl=info msg="Starting DB migrations" logger=migrator
+2021-02-18_19:12:36.67348 t=2021-02-18T19:12:36+0000 lvl=info msg="Starting plugin search" logger=plugins
+2021-02-18_19:12:36.89932 t=2021-02-18T19:12:36+0000 lvl=eror msg="Failed to read plugin provisioning files from directory" logger=provisioning.plugins path=/var/opt/gitlab/grafana/provisioning/plugins error="open /var/opt/gitlab/grafana/provisioning/plugins: no such file or directory"
+2021-02-18_19:12:36.93060 t=2021-02-18T19:12:36+0000 lvl=info msg="HTTP Server Listen" logger=http.server address=127.0.0.1:3000 protocol=http subUrl=/-/grafana socket=
+2021-02-18_19:15:04.67487 t=2021-02-18T19:15:04+0000 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+2021-02-18_19:15:04.95168 t=2021-02-18T19:15:04+0000 lvl=info msg="Starting Grafana" logger=server version=7.3.6 commit=ea06633c34 branch=HEAD compiled=2020-12-14T09:19:44+0000
+2021-02-18_19:15:04.95176 t=2021-02-18T19:15:04+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/conf/defaults.ini
+2021-02-18_19:15:04.95181 t=2021-02-18T19:15:04+0000 lvl=info msg="Config loaded from" logger=settings file=/var/opt/gitlab/grafana/grafana.ini
+2021-02-18_19:15:04.95184 t=2021-02-18T19:15:04+0000 lvl=info msg="Path Home" logger=settings path=/var/opt/gitlab/grafana
+2021-02-18_19:15:04.95187 t=2021-02-18T19:15:04+0000 lvl=info msg="Path Data" logger=settings path=/var/opt/gitlab/grafana/data
+2021-02-18_19:15:04.95190 t=2021-02-18T19:15:04+0000 lvl=info msg="Path Logs" logger=settings path=/var/log/gitlab/grafana
+2021-02-18_19:15:04.95194 t=2021-02-18T19:15:04+0000 lvl=info msg="Path Plugins" logger=settings path=/var/opt/gitlab/grafana/data/plugins
+2021-02-18_19:15:04.95197 t=2021-02-18T19:15:04+0000 lvl=info msg="Path Provisioning" logger=settings path=/var/opt/gitlab/grafana/provisioning
+2021-02-18_19:15:04.95199 t=2021-02-18T19:15:04+0000 lvl=info msg="App mode production" logger=settings
+2021-02-18_19:15:04.95294 t=2021-02-18T19:15:04+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+2021-02-18_19:15:04.95503 t=2021-02-18T19:15:04+0000 lvl=info msg="Starting DB migrations" logger=migrator
+2021-02-18_19:15:05.01678 t=2021-02-18T19:15:05+0000 lvl=info msg="Starting plugin search" logger=plugins
+2021-02-18_19:15:05.43575 t=2021-02-18T19:15:05+0000 lvl=eror msg="Failed to read plugin provisioning files from directory" logger=provisioning.plugins path=/var/opt/gitlab/grafana/provisioning/plugins error="open /var/opt/gitlab/grafana/provisioning/plugins: no such file or directory"
+2021-02-18_19:15:05.52862 t=2021-02-18T19:15:05+0000 lvl=info msg="HTTP Server Listen" logger=http.server address=127.0.0.1:3000 protocol=http subUrl=/-/grafana socket=
+2021-02-18_19:22:32.82175 t=2021-02-18T19:22:32+0000 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"

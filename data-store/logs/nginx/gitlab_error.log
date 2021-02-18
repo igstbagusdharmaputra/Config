@@ -1,0 +1,1 @@
+2021/02/18 18:09:29 [error] 542#0: *935 connect() to unix:/var/opt/gitlab/gitlab-workhorse/sockets/socket failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitlab.example.com, request: "GET /help HTTP/1.1", upstream: "http://unix:/var/opt/gitlab/gitlab-workhorse/sockets/socket:/help", host: "localhost"

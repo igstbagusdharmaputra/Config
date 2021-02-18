@@ -1,0 +1,19 @@
+2021-02-18_19:10:38.45660 252:C 18 Feb 2021 19:10:38.456 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-18_19:10:38.45666 252:C 18 Feb 2021 19:10:38.456 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=252, just started
+2021-02-18_19:10:38.45666 252:C 18 Feb 2021 19:10:38.456 # Configuration loaded
+2021-02-18_19:10:38.45915 252:M 18 Feb 2021 19:10:38.459 * Running mode=standalone, port=0.
+2021-02-18_19:10:38.45980 252:M 18 Feb 2021 19:10:38.459 # Server initialized
+2021-02-18_19:10:38.45987 252:M 18 Feb 2021 19:10:38.459 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2021-02-18_19:10:38.45994 252:M 18 Feb 2021 19:10:38.459 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-18_19:10:38.46601 252:M 18 Feb 2021 19:10:38.463 * DB loaded from disk: 0.003 seconds
+2021-02-18_19:10:38.46602 252:M 18 Feb 2021 19:10:38.463 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-02-18_19:15:39.05441 252:M 18 Feb 2021 19:15:39.044 * 10 changes in 300 seconds. Saving...
+2021-02-18_19:15:39.05462 252:M 18 Feb 2021 19:15:39.044 * Background saving started by pid 882
+2021-02-18_19:15:39.06547 882:C 18 Feb 2021 19:15:39.062 * DB saved on disk
+2021-02-18_19:15:39.06550 882:C 18 Feb 2021 19:15:39.063 * RDB: 0 MB of memory used by copy-on-write
+2021-02-18_19:15:39.15375 252:M 18 Feb 2021 19:15:39.145 * Background saving terminated with success
+2021-02-18_19:20:40.02344 252:M 18 Feb 2021 19:20:40.016 * 10 changes in 300 seconds. Saving...
+2021-02-18_19:20:40.02896 252:M 18 Feb 2021 19:20:40.028 * Background saving started by pid 1533
+2021-02-18_19:20:40.05910 1533:C 18 Feb 2021 19:20:40.058 * DB saved on disk
+2021-02-18_19:20:40.06006 1533:C 18 Feb 2021 19:20:40.059 * RDB: 2 MB of memory used by copy-on-write
+2021-02-18_19:20:40.13160 252:M 18 Feb 2021 19:20:40.131 * Background saving terminated with success

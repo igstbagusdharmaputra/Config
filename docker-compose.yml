@@ -1,0 +1,99 @@
+version: "3" 
+services:
+  nginx:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "8089:8089"
+    volumes:
+      - /home/dharma/tmp/etc/nginx:/etc/nginx/conf.d
+    networks:
+      - gitlabnetwork
+      
+  gitlab:
+      container_name: gitlab-srv
+      image: gitlab/gitlab-ee:latest
+      restart: always
+      hostname: gitlab.example.com
+      environment:
+          GITLAB_OMNIBUS_CONFIG: |
+              external_url 'http://gitlab.example.com'
+              registry_external_url 'http://gitlab.example.com:5050'
+              registry['enable'] = true
+              gitlab_rails['gitlab_shell_ssh_port'] = 2224
+      # Add any other gitlab.rb configuration here, each on its own line
+      ports:
+#          - '8081:80'
+          #- '443:443'
+          - '2224:22'
+          - '5050:5050'
+      volumes:
+          - ./data-store/config:/etc/gitlab
+          - ./data-store/logs:/var/log/gitlab
+          - ./data-store/data:/var/opt/gitlab
+      networks:
+          - gitlabnetwork
+
+  gitlab-runner:
+      container_name: gitlab-run
+      restart: always
+      image: gitlab/gitlab-runner:latest
+      volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+          - "$HOME/.docker:/root/.docker/"
+          - ./data-store/gitlab-runner-volume/config:/etc/gitlab-runner
+      networks:
+          - gitlabnetwork
+  sonarqube:
+    image: sonarqube:8.2-community
+    depends_on:
+      - db
+    ports:
+      - "9000:9000"
+    networks:
+      - sonarnet
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonar
+      SONAR_JDBC_USERNAME: sonar
+      SONAR_JDBC_PASSWORD: sonar
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_logs:/opt/sonarqube/logs
+      - sonarqube_temp:/opt/sonarqube/temp
+  
+  db:
+    image: postgres
+    networks:
+      - sonarnet
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+    volumes:
+      - postgresql:/var/lib/postgresql
+      # This needs explicit mapping due to https://github.com/docker-library/postgres/blob/4e48e3228a30763913ece952c611e5e9b95c8759/Dockerfile.template#L52
+      - postgresql_data:/var/lib/postgresql/data
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-pro:latest
+    container_name: artifactory
+    ports:
+       - 8081:8081
+       - 8082:8082
+    volumes:
+       - /data/artifactory3:/var/opt/jfrog/artifactory
+    restart: always
+    #networks:
+    #   - gitlabnetwork    
+networks:
+  sonarnet:
+    driver: bridge
+  gitlabnetwork:
+    driver: bridge
+
+volumes:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:
+  sonarqube_temp:
+  postgresql:
+  postgresql_data: 

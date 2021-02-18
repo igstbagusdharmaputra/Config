@@ -1,0 +1,15 @@
+2021-02-18_04:39:52.21247 {"timestamp":"2021-02-18T04:39:52.212Z","pid":307,"message":"Puma starting in cluster mode..."}
+2021-02-18_04:39:52.21965 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"* Puma version: 5.1.1 (ruby 2.7.2-p137) (\"At Your Service\")"}
+2021-02-18_04:39:52.21971 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*  Min threads: 4"}
+2021-02-18_04:39:52.21973 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*  Max threads: 4"}
+2021-02-18_04:39:52.21975 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*  Environment: production"}
+2021-02-18_04:39:52.21977 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*   Master PID: 307"}
+2021-02-18_04:39:52.21980 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*      Workers: 2"}
+2021-02-18_04:39:52.21983 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"*     Restarts: (✔) hot (✖) phased"}
+2021-02-18_04:39:52.21991 {"timestamp":"2021-02-18T04:39:52.219Z","pid":307,"message":"* Preloading application"}
+2021-02-18_04:41:57.14533 {"timestamp":"2021-02-18T04:41:57.144Z","pid":307,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2021-02-18_04:41:57.14579 {"timestamp":"2021-02-18T04:41:57.145Z","pid":307,"message":"* Listening on http://127.0.0.1:8080"}
+2021-02-18_04:41:57.14580 {"timestamp":"2021-02-18T04:41:57.145Z","pid":307,"message":"! WARNING: Detected 2 Thread(s) started in app boot:"}
+2021-02-18_04:41:57.14601 {"timestamp":"2021-02-18T04:41:57.145Z","pid":307,"message":"! #\u003cThread:0x00007f9a4b8bf7f8 /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:334 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:337:in `sleep'"}
+2021-02-18_04:41:57.14626 {"timestamp":"2021-02-18T04:41:57.146Z","pid":307,"message":"! #\u003cThread:0x00007f9a34425b28 /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.5.2/lib/rack/timeout/support/scheduler.rb:73 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.5.2/lib/rack/timeout/support/scheduler.rb:91:in `sleep'"}
+2021-02-18_04:41:57.14647 {"timestamp":"2021-02-18T04:41:57.146Z","pid":307,"message":"Use Ctrl-C to stop"}

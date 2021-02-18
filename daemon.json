@@ -1,0 +1,3 @@
+{
+        "insecure-registries":["docker.artifactory-local","docker-local.artifactory-local", "docker-remote.artifactory-local"]
+}

@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[gitlab]
+	fullpath = gitlab-instance-40b97683/monitoring

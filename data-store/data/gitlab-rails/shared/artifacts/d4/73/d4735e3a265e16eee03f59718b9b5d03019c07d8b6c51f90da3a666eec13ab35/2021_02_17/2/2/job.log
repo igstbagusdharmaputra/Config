@@ -1,0 +1,20 @@
+[0KRunning with gitlab-runner 13.8.0 (775dd39d)
+[0;m[0K  on docker-runner ckd-HWTy
+[0;msection_start:1613585408:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
+[0;m[0KUsing Docker executor with image gliderlabs/herokuish:latest ...
+[0;m[0KStarting service postgres:9.6.16 ...
+[0;m[0KAuthenticating with credentials from /root/.docker/config.json
+[0;m[0KPulling docker image postgres:9.6.16 ...
+[0;m[0KUsing docker image sha256:cb2889ab0680ba518e0dc1bb5a09cbe23f1e5908d9e484daea3d34f5e092ec17 for postgres:9.6.16 with digest postgres@sha256:d6a6badb2b5b22de5e135490a217522cecc2ae90fe35b33290615827569310a1 ...
+[0;m[0KWaiting for services to be up and running...
+[0;m[0KAuthenticating with credentials from /root/.docker/config.json
+[0;m[0KPulling docker image gliderlabs/herokuish:latest ...
+[0;m[0KUsing docker image sha256:e7a6e6dab9d6f34302301bb67d23bbde52c36533c2bf97ccd17adfa0ed753187 for gliderlabs/herokuish:latest with digest gliderlabs/herokuish@sha256:c879ff868ef6a68a87d7a5ded8904a2825c58b45c187baa5aac6eeba1f27232d ...
+[0;msection_end:1613585651:prepare_executor[0Ksection_start:1613585651:prepare_script[0K[0K[36;1mPreparing environment[0;m
+[0;mRunning on runner-ckd-hwty-project-2-concurrent-0 via 0d419e5de8cf...
+section_end:1613585653:prepare_script[0Ksection_start:1613585653:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
+[0;m[32;1mFetching changes with git depth set to 50...[0;m
+Reinitialized existing Git repository in /builds/root/cicd-telkomsel/.git/
+fatal: unable to access 'http://gitlab.example.com/root/cicd-telkomsel.git/': Could not resolve host: gitlab.example.com
+section_end:1613585655:get_sources[0K[31;1mERROR: Job failed: exit code 1
+[0;m

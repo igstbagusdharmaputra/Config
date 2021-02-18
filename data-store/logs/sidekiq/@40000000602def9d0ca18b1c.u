@@ -1,0 +1,266 @@
+{"severity":"INFO","time":"2021-02-18T04:37:47.047Z","message":"Starting cluster with 1 processes"}
+{"severity":"INFO","time":"2021-02-18T04:38:44.665Z","message":"Booting Sidekiq 5.2.9 with redis options {:instrumentation_class=\u003eGitlab::Instrumentation::Redis::Queues, :path=\u003e\"/var/opt/gitlab/redis/redis.socket\", :namespace=\u003e\"resque:gitlab\", :id=\u003e\"Sidekiq-server-PID-407\", :url=\u003enil}"}
+{"severity":"INFO","time":"2021-02-18T04:38:44.753Z","message":"GitLab reliable fetch activated!"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.302Z","message":"Cron Jobs - deleted job with name: geo_sidekiq_cron_config_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.322Z","message":"Cron Jobs - deleted job with name: update_all_mirrors_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.333Z","message":"Cron Jobs - add job with name: stuck_ci_jobs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.348Z","message":"Cron Jobs - add job with name: pipeline_schedule_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.367Z","message":"Cron Jobs - add job with name: expire_build_artifacts_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.376Z","message":"Cron Jobs - add job with name: ci_pipelines_expire_artifacts_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.395Z","message":"Cron Jobs - add job with name: ci_schedule_delete_objects_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.413Z","message":"Cron Jobs - add job with name: environments_auto_stop_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.432Z","message":"Cron Jobs - add job with name: repository_check_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.452Z","message":"Cron Jobs - add job with name: admin_email_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.471Z","message":"Cron Jobs - add job with name: personal_access_tokens_expiring_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.483Z","message":"Cron Jobs - add job with name: personal_access_tokens_expired_notification_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.507Z","message":"Cron Jobs - add job with name: repository_archive_cache_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.522Z","message":"Cron Jobs - add job with name: import_export_project_cleanup_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.536Z","message":"Cron Jobs - add job with name: ci_archive_traces_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.556Z","message":"Cron Jobs - add job with name: requests_profiles_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.569Z","message":"Cron Jobs - add job with name: remove_expired_members_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.592Z","message":"Cron Jobs - add job with name: remove_expired_group_links_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.604Z","message":"Cron Jobs - add job with name: remove_unaccepted_member_invites_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.611Z","message":"Cron Jobs - add job with name: prune_old_events_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.621Z","message":"Cron Jobs - add job with name: trending_projects_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.627Z","message":"Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.633Z","message":"Cron Jobs - add job with name: import_stuck_project_import_jobs"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.641Z","message":"Cron Jobs - add job with name: jira_import_stuck_jira_import_jobs"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.646Z","message":"Cron Jobs - add job with name: stuck_export_jobs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.653Z","message":"Cron Jobs - add job with name: gitlab_usage_ping_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.660Z","message":"Cron Jobs - add job with name: stuck_merge_jobs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.727Z","message":"Cron Jobs - add job with name: pages_domain_verification_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.731Z","message":"Cron Jobs - add job with name: pages_domain_removal_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.737Z","message":"Cron Jobs - add job with name: pages_domain_ssl_renewal_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.744Z","message":"Cron Jobs - add job with name: issue_due_scheduler_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.749Z","message":"Cron Jobs - add job with name: prune_web_hook_logs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.753Z","message":"Cron Jobs - add job with name: metrics_dashboard_schedule_annotations_prune_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.758Z","message":"Cron Jobs - add job with name: schedule_migrate_external_diffs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.765Z","message":"Cron Jobs - add job with name: namespaces_prune_aggregation_schedules_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.770Z","message":"Cron Jobs - add job with name: container_expiration_policy_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.779Z","message":"Cron Jobs - add job with name: x509_issuer_crl_check_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.783Z","message":"Cron Jobs - add job with name: users_create_statistics_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.792Z","message":"Cron Jobs - add job with name: authorized_project_update_periodic_recalculate_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.797Z","message":"Cron Jobs - add job with name: update_container_registry_info_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.802Z","message":"Cron Jobs - add job with name: postgres_dynamic_partitions_creator"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.806Z","message":"Cron Jobs - add job with name: ci_platform_metrics_update_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.813Z","message":"Cron Jobs - add job with name: analytics_instance_statistics_count_job_trigger_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.819Z","message":"Cron Jobs - add job with name: member_invitation_reminder_emails_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.824Z","message":"Cron Jobs - add job with name: schedule_merge_request_cleanup_refs_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.830Z","message":"Cron Jobs - add job with name: manage_evidence_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.837Z","message":"Cron Jobs - add job with name: analytics_devops_adoption_create_all_snapshots_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.844Z","message":"Cron Jobs - add job with name: active_user_count_threshold_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.850Z","message":"Cron Jobs - add job with name: adjourned_group_deletion_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.855Z","message":"Cron Jobs - add job with name: clear_shared_runners_minutes_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.858Z","message":"Cron Jobs - add job with name: adjourned_projects_deletion_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.868Z","message":"Cron Jobs - add job with name: geo_verification_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.874Z","message":"Cron Jobs - add job with name: geo_file_download_dispatch_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.879Z","message":"Cron Jobs - add job with name: geo_registry_sync_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.882Z","message":"Cron Jobs - add job with name: geo_metrics_update_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.884Z","message":"Cron Jobs - add job with name: geo_prune_event_log_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.885Z","message":"Cron Jobs - add job with name: geo_repository_sync_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.889Z","message":"Cron Jobs - add job with name: geo_secondary_registry_consistency_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.892Z","message":"Cron Jobs - add job with name: geo_repository_verification_primary_batch_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.893Z","message":"Cron Jobs - add job with name: geo_repository_verification_secondary_scheduler_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.897Z","message":"Cron Jobs - add job with name: geo_container_repository_sync_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.900Z","message":"Cron Jobs - add job with name: historical_data_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.902Z","message":"Cron Jobs - add job with name: incident_sla_exceeded_check_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.904Z","message":"Cron Jobs - add job with name: import_software_licenses_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.908Z","message":"Cron Jobs - add job with name: ldap_group_sync_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.912Z","message":"Cron Jobs - add job with name: ldap_sync_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.914Z","message":"Cron Jobs - add job with name: pseudonymizer_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.916Z","message":"Cron Jobs - add job with name: update_max_seats_used_for_gitlab_com_subscriptions_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.919Z","message":"Cron Jobs - add job with name: elastic_index_bulk_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.921Z","message":"Cron Jobs - add job with name: elastic_index_initial_bulk_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.924Z","message":"Cron Jobs - add job with name: elastic_cluster_reindexing_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.925Z","message":"Cron Jobs - add job with name: elastic_remove_expired_namespace_subscriptions_from_index_cron_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.927Z","message":"Cron Jobs - add job with name: elastic_migration_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.928Z","message":"Cron Jobs - add job with name: sync_seat_link_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.930Z","message":"Cron Jobs - add job with name: web_application_firewall_metrics_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.931Z","message":"Cron Jobs - add job with name: network_policy_metrics_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.933Z","message":"Cron Jobs - add job with name: iterations_update_status_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.934Z","message":"Cron Jobs - add job with name: vulnerability_statistics_schedule_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:47.936Z","message":"Cron Jobs - add job with name: vulnerability_historical_statistics_deletion_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:48.045Z","message":"Cron Jobs - add job with name: update_all_mirrors_worker"}
+{"severity":"INFO","time":"2021-02-18T04:38:48.056Z","message":"Cron Jobs - add job with name: geo_sidekiq_cron_config_worker"}
+PG::ConnectionBad: PQconsumeInput() server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:65:in `exec'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:65:in `block (2 levels) in query'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:64:in `block in query'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract_adapter.rb:722:in `block (2 levels) in log'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract_adapter.rb:721:in `block in log'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract_adapter.rb:712:in `log'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/postgresql/database_statements.rb:63:in `query'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:820:in `column_definitions'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/abstract/schema_statements.rb:114:in `columns'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/schema_cache.rb:76:in `columns'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/connection_adapters/schema_cache.rb:82:in `columns_hash'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/model_schema.rb:488:in `load_schema!'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/attributes.rb:247:in `load_schema!'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/attribute_decorators.rb:50:in `load_schema!'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/model_schema.rb:478:in `block in load_schema'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/model_schema.rb:475:in `synchronize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/model_schema.rb:475:in `load_schema'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activerecord-6.0.3.4/lib/active_record/model_schema.rb:393:in `column_defaults'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-activerecord-0.8.0/lib/state_machines/integrations/active_record.rb:441:in `owner_class_attribute_default'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-0.5.0/lib/state_machines/machine.rb:603:in `initial_state='
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-0.5.0/lib/state_machines/machine.rb:546:in `initialize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-0.5.0/lib/state_machines/machine.rb:439:in `new'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-0.5.0/lib/state_machines/machine.rb:439:in `find_or_create'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/state_machines-0.5.0/lib/state_machines/macro_methods.rb:517:in `state_machine'
+/opt/gitlab/embedded/service/gitlab-rails/app/models/deployment.rb:56:in `<class:Deployment>'
+/opt/gitlab/embedded/service/gitlab-rails/app/models/deployment.rb:3:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `block in require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:291:in `load_dependency'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:411:in `block in require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `block in load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:13:in `loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:389:in `require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:544:in `load_missing_constant'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:214:in `const_missing'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:581:in `load_missing_constant'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:214:in `const_missing'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:581:in `load_missing_constant'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:214:in `const_missing'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/deployments.rb:32:in `block (2 levels) in <class:Deployments>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/validations/params_scope.rb:36:in `instance_eval'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/validations/params_scope.rb:36:in `initialize'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/validations.rb:42:in `new'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/validations.rb:42:in `params'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/deployments.rb:20:in `block in <class:Deployments>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:120:in `instance_eval'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:120:in `block in evaluate_as_instance_with_configuration'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/util/lazy_block.rb:11:in `evaluate_from'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:127:in `evaluate_as_instance_with_configuration'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `block in nest'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `each'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `nest'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/routing.rb:172:in `block in namespace'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/settings.rb:160:in `within_namespace'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/routing.rb:169:in `namespace'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/deployments.rb:15:in `<class:Deployments>'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/deployments.rb:5:in `<module:API>'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/deployments.rb:3:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `block in require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:291:in `load_dependency'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:411:in `block in require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `block in load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:13:in `loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:389:in `require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:544:in `load_missing_constant'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:214:in `const_missing'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/api.rb:169:in `block in <class:API>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:120:in `instance_eval'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:120:in `block in evaluate_as_instance_with_configuration'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/util/lazy_block.rb:11:in `evaluate_from'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:127:in `evaluate_as_instance_with_configuration'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `block in nest'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `each'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/api/instance.rb:107:in `nest'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/routing.rb:172:in `block in namespace'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/settings.rb:160:in `within_namespace'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/grape-1.5.1/lib/grape/dsl/routing.rb:169:in `namespace'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/api.rb:140:in `<class:API>'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/api.rb:4:in `<module:API>'
+/opt/gitlab/embedded/service/gitlab-rails/lib/api/api.rb:3:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `block in require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:291:in `load_dependency'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:411:in `block in require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `block in load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies/interlock.rb:13:in `loading'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:40:in `load_interlock'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:389:in `require_or_load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:544:in `load_missing_constant'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:214:in `const_missing'
+(eval):4:in `draw_route'
+/opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/patch/draw_route.rb:30:in `instance_eval'
+/opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/patch/draw_route.rb:30:in `draw_route'
+/opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/patch/draw_route.rb:17:in `draw_ce'
+/opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/patch/draw_route.rb:11:in `draw'
+/opt/gitlab/embedded/service/gitlab-rails/config/routes.rb:267:in `block in <top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/actionpack-6.0.3.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/actionpack-6.0.3.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/actionpack-6.0.3.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/opt/gitlab/embedded/service/gitlab-rails/config/routes.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:318:in `load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:318:in `block in load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:291:in `load_dependency'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:318:in `load'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application/routes_reloader.rb:40:in `each'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application/routes_reloader.rb:40:in `load_paths'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application/routes_reloader.rb:20:in `reload!'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application.rb:169:in `reload_routes!'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/devise-4.7.3/lib/devise/rails.rb:17:in `block in <class:Engine>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:68:in `block in execute_hook'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:61:in `with_execution_control'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:66:in `execute_hook'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:51:in `each'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application/finisher.rb:118:in `block in <module:Finisher>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/initializable.rb:32:in `run'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:228:in `block in tsort_each'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:431:in `each_strongly_connected_component_from'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:349:in `block in each_strongly_connected_component'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `each'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `call'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:347:in `each_strongly_connected_component'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:226:in `tsort_each'
+/opt/gitlab/embedded/lib/ruby/2.7.0/tsort.rb:205:in `tsort_each'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/application.rb:363:in `initialize!'
+/opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:5:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `block in require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:291:in `load_dependency'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/activesupport-6.0.3.4/lib/active_support/dependencies.rb:324:in `require'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/cli.rb:288:in `boot_system'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/cli.rb:46:in `run'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/bin/sidekiq:12:in `<top (required)>'
+/opt/gitlab/embedded/bin/sidekiq:23:in `load'
+/opt/gitlab/embedded/bin/sidekiq:23:in `<top (required)>'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli/exec.rb:63:in `load'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli/exec.rb:63:in `kernel_load'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli/exec.rb:28:in `run'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli.rb:476:in `exec'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/vendor/thor/lib/thor.rb:399:in `dispatch'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli.rb:30:in `dispatch'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/vendor/thor/lib/thor/base.rb:476:in `start'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/cli.rb:24:in `start'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/bundler-2.1.4/exe/bundle:46:in `block in <top (required)>'
+/opt/gitlab/embedded/lib/ruby/site_ruby/2.7.0/bundler/friendly_errors.rb:123:in `with_friendly_errors'
+/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/bundler-2.1.4/exe/bundle:34:in `<top (required)>'
+/opt/gitlab/embedded/bin/bundle:23:in `load'
+/opt/gitlab/embedded/bin/bundle:23:in `<main>'
+{"severity":"INFO","time":"2021-02-18T04:38:52.183Z","message":"A worker terminated, shutting down the cluster"}
+{"severity":"INFO","time":"2021-02-18T04:38:52.389Z","message":"Starting cluster with 1 processes"}

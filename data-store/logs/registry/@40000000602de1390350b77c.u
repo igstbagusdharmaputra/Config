@@ -1,0 +1,10 @@
+2021-02-18_03:04:43.62745 time="2021-02-18T03:04:43Z" level=info msg="redis not configured" environment=production go_version=go1.14.7 instance_id=f022e83c-035c-4399-ad92-c591b23f0f15 service=registry version=v2.13.1-gitlab
+2021-02-18_03:04:43.65156 time="2021-02-18T03:04:43Z" level=info msg="Starting upload purge in 1m0s" environment=production go_version=go1.14.7 instance_id=f022e83c-035c-4399-ad92-c591b23f0f15 service=registry version=v2.13.1-gitlab
+2021-02-18_03:04:43.68666 time="2021-02-18T03:04:43Z" level=info msg="using inmemory blob descriptor cache" environment=production go_version=go1.14.7 instance_id=f022e83c-035c-4399-ad92-c591b23f0f15 service=registry version=v2.13.1-gitlab
+2021-02-18_03:04:43.69424 time="2021-02-18T03:04:43Z" level=warning msg="DEPRECATION WARNING: The 'combined' log formatter is deprecated and will be removed by January 22nd, 2021. Please use 'text' or 'json' instead. See https://gitlab.com/gitlab-org/container-registry/-/issues/183 for more details."
+2021-02-18_03:04:43.69759 time="2021-02-18T03:04:43Z" level=info msg="listening on 127.0.0.1:5000" environment=production go_version=go1.14.7 instance_id=f022e83c-035c-4399-ad92-c591b23f0f15 service=registry version=v2.13.1-gitlab
+2021-02-18_03:05:43.66844 time="2021-02-18T03:05:43Z" level=info msg="PurgeUploads starting: olderThan=2021-02-11 03:05:43.664027897 +0000 UTC m=-604739.759143792, actuallyDelete=true"
+2021-02-18_03:05:43.67675 time="2021-02-18T03:05:43Z" level=info msg="Purge uploads finished.  Num deleted=0, num errors=1"
+2021-02-18_03:05:43.67682 time="2021-02-18T03:05:43Z" level=info msg="Starting upload purge in 24h0m0s" environment=production go_version=go1.14.7 instance_id=f022e83c-035c-4399-ad92-c591b23f0f15 service=registry version=v2.13.1-gitlab
+2021-02-18_03:35:18.95232 time="2021-02-18T03:35:18Z" level=info msg="attempting to stop server gracefully..." http_drain_timeout=0s quit_signal=terminated
+2021-02-18_03:35:18.95398 time="2021-02-18T03:35:18Z" level=info msg="graceful shutdown successful" http_drain_timeout=0s quit_signal=terminated

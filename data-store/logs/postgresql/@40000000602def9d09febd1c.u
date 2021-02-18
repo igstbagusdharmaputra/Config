@@ -1,0 +1,12 @@
+2021-02-18_04:37:45.76360 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_04:37:45.77506 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_04:37:45.92601 LOG:  database system was shut down at 2021-02-18 04:36:53 GMT
+2021-02-18_04:37:45.94190 LOG:  database system is ready to accept connections
+2021-02-18_04:38:51.46869 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_04:38:51.47952 LOG:  received fast shutdown request
+2021-02-18_04:38:51.48098 LOG:  aborting any active transactions
+2021-02-18_04:38:51.48299 FATAL:  terminating connection due to administrator command
+2021-02-18_04:38:51.48301 FATAL:  terminating connection due to administrator command
+2021-02-18_04:38:51.48308 LOG:  background worker "logical replication launcher" (PID 396) exited with exit code 1
+2021-02-18_04:38:51.48417 LOG:  shutting down
+2021-02-18_04:38:51.49404 LOG:  database system is shut down

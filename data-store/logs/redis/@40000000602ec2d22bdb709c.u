@@ -1,0 +1,21 @@
+2021-02-18_19:29:40.18341 252:C 18 Feb 2021 19:29:40.183 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-18_19:29:40.18357 252:C 18 Feb 2021 19:29:40.183 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=252, just started
+2021-02-18_19:29:40.18360 252:C 18 Feb 2021 19:29:40.183 # Configuration loaded
+2021-02-18_19:29:40.19133 252:M 18 Feb 2021 19:29:40.191 * Running mode=standalone, port=0.
+2021-02-18_19:29:40.19147 252:M 18 Feb 2021 19:29:40.191 # Server initialized
+2021-02-18_19:29:40.19153 252:M 18 Feb 2021 19:29:40.191 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2021-02-18_19:29:40.19161 252:M 18 Feb 2021 19:29:40.191 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-18_19:29:40.20332 252:M 18 Feb 2021 19:29:40.203 * DB loaded from disk: 0.011 seconds
+2021-02-18_19:29:40.20337 252:M 18 Feb 2021 19:29:40.203 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-02-18_19:34:41.10167 252:M 18 Feb 2021 19:34:41.101 * 10 changes in 300 seconds. Saving...
+2021-02-18_19:34:41.10952 252:M 18 Feb 2021 19:34:41.109 * Background saving started by pid 1238
+2021-02-18_19:34:41.12118 1238:C 18 Feb 2021 19:34:41.121 * DB saved on disk
+2021-02-18_19:34:41.12249 1238:C 18 Feb 2021 19:34:41.122 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_19:34:41.21127 252:M 18 Feb 2021 19:34:41.211 * Background saving terminated with success
+2021-02-18_19:39:22.82175 252:signal-handler (1613677162) Received SIGTERM scheduling shutdown...
+2021-02-18_19:39:22.84929 252:M 18 Feb 2021 19:39:22.849 # User requested shutdown...
+2021-02-18_19:39:22.84960 252:M 18 Feb 2021 19:39:22.849 * Saving the final RDB snapshot before exiting.
+2021-02-18_19:39:22.86599 252:M 18 Feb 2021 19:39:22.865 * DB saved on disk
+2021-02-18_19:39:22.86647 252:M 18 Feb 2021 19:39:22.866 * Removing the pid file.
+2021-02-18_19:39:22.86671 252:M 18 Feb 2021 19:39:22.866 * Removing the unix socket file.
+2021-02-18_19:39:22.86692 252:M 18 Feb 2021 19:39:22.866 # Redis is now ready to exit, bye bye...

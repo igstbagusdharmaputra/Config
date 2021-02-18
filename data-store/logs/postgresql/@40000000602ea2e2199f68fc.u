@@ -1,0 +1,29 @@
+2021-02-18_17:16:53.04338 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_17:16:53.04964 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_17:16:53.07801 LOG:  database system was shut down at 2021-02-18 17:15:43 GMT
+2021-02-18_17:16:53.08701 LOG:  database system is ready to accept connections
+2021-02-18_17:16:56.44376 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_17:16:56.44383 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_17:16:56.44383 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_17:16:56.55471 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_17:16:56.55472 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_17:16:56.55472 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_17:16:56.66117 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_17:16:56.66120 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_17:16:56.66121 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_17:20:04.75909 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_17:20:04.76072 LOG:  received fast shutdown request
+2021-02-18_17:20:04.76268 LOG:  aborting any active transactions
+2021-02-18_17:20:04.76627 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76629 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76629 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76629 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76630 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76630 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76630 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76631 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76738 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.76869 FATAL:  terminating connection due to administrator command
+2021-02-18_17:20:04.77007 LOG:  background worker "logical replication launcher" (PID 393) exited with exit code 1
+2021-02-18_17:20:04.77188 LOG:  shutting down
+2021-02-18_17:20:04.78478 LOG:  database system is shut down

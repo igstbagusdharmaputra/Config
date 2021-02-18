@@ -1,0 +1,9 @@
+{"build_time":"20210201.163706","level":"info","msg":"Starting","time":"2021-02-17T08:05:23Z","version":"v8.59.0"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2021-02-17T08:05:23Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2021-02-17T08:05:23Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01EYQGDJ1VCEJ5BFZPNR25P4VJ","duration_ms":1066,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2021-02-17T08:06:34Z","ttfb_ms":1065,"uri":"/help","user_agent":"curl/7.74.0-DEV","written_bytes":68087}
+{"build_time":"20210201.163706","level":"info","msg":"Starting","time":"2021-02-17T08:06:41Z","version":"v8.59.0"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2021-02-17T08:06:41Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2021-02-17T08:06:41Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01EYQGFDSWW9EEPVXRXF4CXCV4","duration_ms":143,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2021-02-17T08:07:34Z","ttfb_ms":143,"uri":"/help","user_agent":"curl/7.74.0-DEV","written_bytes":68087}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01EYQGH8N8D62Z9SVAD72CKSC0","duration_ms":130,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2021-02-17T08:08:34Z","ttfb_ms":128,"uri":"/help","user_agent":"curl/7.74.0-DEV","written_bytes":68087}

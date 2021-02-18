@@ -1,0 +1,8 @@
+2021-02-18_04:39:49.29474 time="2021-02-18T04:39:49Z" level=info msg="redis not configured" environment=production go_version=go1.14.7 instance_id=6e769641-b7bb-475c-a582-cadad7c2eca3 service=registry version=v2.13.1-gitlab
+2021-02-18_04:39:49.29805 time="2021-02-18T04:39:49Z" level=info msg="Starting upload purge in 5m0s" environment=production go_version=go1.14.7 instance_id=6e769641-b7bb-475c-a582-cadad7c2eca3 service=registry version=v2.13.1-gitlab
+2021-02-18_04:39:49.32863 time="2021-02-18T04:39:49Z" level=info msg="using inmemory blob descriptor cache" environment=production go_version=go1.14.7 instance_id=6e769641-b7bb-475c-a582-cadad7c2eca3 service=registry version=v2.13.1-gitlab
+2021-02-18_04:39:49.34041 time="2021-02-18T04:39:49Z" level=warning msg="DEPRECATION WARNING: The 'combined' log formatter is deprecated and will be removed by January 22nd, 2021. Please use 'text' or 'json' instead. See https://gitlab.com/gitlab-org/container-registry/-/issues/183 for more details."
+2021-02-18_04:39:49.34375 time="2021-02-18T04:39:49Z" level=info msg="listening on 127.0.0.1:5000" environment=production go_version=go1.14.7 instance_id=6e769641-b7bb-475c-a582-cadad7c2eca3 service=registry version=v2.13.1-gitlab
+2021-02-18_04:44:49.32582 time="2021-02-18T04:44:49Z" level=info msg="PurgeUploads starting: olderThan=2021-02-11 04:44:49.30700874 +0000 UTC m=-604499.946518719, actuallyDelete=true"
+2021-02-18_04:44:49.32975 time="2021-02-18T04:44:49Z" level=info msg="Purge uploads finished.  Num deleted=0, num errors=1"
+2021-02-18_04:44:49.33055 time="2021-02-18T04:44:49Z" level=info msg="Starting upload purge in 24h0m0s" environment=production go_version=go1.14.7 instance_id=6e769641-b7bb-475c-a582-cadad7c2eca3 service=registry version=v2.13.1-gitlab

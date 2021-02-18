@@ -1,0 +1,34 @@
+[0KRunning with gitlab-runner 13.8.0 (775dd39d)
+[0;m[0K  on docker-runner ckd-HWTy
+[0;msection_start:1613585302:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
+[0;m[0KUsing Docker executor with image registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v0.4.0 ...
+[0;m[0KStarting service docker:19.03.12-dind ...
+[0;m[0KAuthenticating with credentials from /root/.docker/config.json
+[0;m[0KPulling docker image docker:19.03.12-dind ...
+[0;m[0KUsing docker image sha256:66dc2d45749a48592f4348fb3d567bdd65c9dbd5402a413b6d169619e32f6bd2 for docker:19.03.12-dind with digest docker@sha256:674f1f40ff7c8ac14f5d8b6b28d8fb1f182647ff75304d018003f1e21a0d8771 ...
+[0;m[0KWaiting for services to be up and running...
+[0;m
+[0;33m*** WARNING:[0;m Service runner-ckd-hwty-project-2-concurrent-0-809efe2762bc1700-docker-0 probably didn't start properly.
+
+Health check error:
+start service container: Error response from daemon: Cannot link to a non running container: /runner-ckd-hwty-project-2-concurrent-0-809efe2762bc1700-docker-0 AS /runner-ckd-hwty-project-2-concurrent-0-809efe2762bc1700-docker-0-wait-for-service/service (docker.go:1270:0s)
+
+Service container logs:
+2021-02-17T18:09:33.716612126Z mount: permission denied (are you root?)
+2021-02-17T18:09:33.718893417Z Could not mount /sys/kernel/security.
+2021-02-17T18:09:33.718921294Z AppArmor detection and --privileged mode might break.
+2021-02-17T18:09:33.721192881Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KPulling docker image registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v0.4.0 ...
+[0;m[0KUsing docker image sha256:8fc6ce583c5470c12fa234955bba4f299604f6231863a0d76ec9f3b1632666ec for registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image:v0.4.0 with digest registry.gitlab.com/gitlab-org/cluster-integration/auto-build-image@sha256:5add72d80d07dbec39dbb250ed163c40e6f8005f00e8dd3860af6a02db1502c4 ...
+[0;msection_end:1613585394:prepare_executor[0Ksection_start:1613585394:prepare_script[0K[0K[36;1mPreparing environment[0;m
+[0;mRunning on runner-ckd-hwty-project-2-concurrent-0 via 0d419e5de8cf...
+section_end:1613585397:prepare_script[0Ksection_start:1613585397:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
+[0;m[32;1mFetching changes with git depth set to 50...[0;m
+Initialized empty Git repository in /builds/root/cicd-telkomsel/.git/
+[32;1mCreated fresh repository.[0;m
+fatal: unable to access 'http://gitlab.example.com/root/cicd-telkomsel.git/': Could not resolve host: gitlab.example.com
+section_end:1613585402:get_sources[0K[31;1mERROR: Job failed: exit code 1
+[0;m

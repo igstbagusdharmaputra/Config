@@ -1,0 +1,134 @@
+{"severity":"INFO","time":"2021-02-18T03:38:35.884Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T03:38:40.996Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T03:39:50.820Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T03:39:53.111Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T03:40:22.721Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T03:40:22.981Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T03:40:22.991Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T04:00:36.653Z","correlation_id":"e6eb7fee3ee62e69f2bd7cecdff161f1","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T04:38:43.921Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T04:38:43.920Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T04:40:46.027Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T04:40:46.088Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T04:41:57.875Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T04:41:58.277Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T04:41:58.388Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T15:47:09.792Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T15:47:09.815Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T15:49:25.139Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T15:49:25.636Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T15:49:25.636Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T16:00:03.784Z","correlation_id":"9d2665f8fc649664235ceae83a7db09f","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T16:34:13.767Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T16:34:13.765Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T16:35:10.256Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T16:35:12.334Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T16:35:17.660Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T16:35:18.328Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T16:35:18.496Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:00:20.213Z","correlation_id":"a928bd0a6c689a0807ea8130ed7a53bb","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T17:11:35.939Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:11:35.938Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:12:23.752Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:12:25.306Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:12:40.228Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T17:12:40.465Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:12:40.475Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:17:27.007Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:17:32.390Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:18:15.888Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T17:18:16.334Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:18:16.348Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:18:26.383Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:18:27.302Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:25:17.027Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:25:23.407Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:26:14.452Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T17:26:14.830Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:26:14.917Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:26:18.516Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:26:19.707Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:37:52.601Z","correlation_id":"01EYV3GC1ZC4HJJ8Z4ZRRP918T","message":"Successful Login: username=root ip=172.18.0.2 method=standard admin=true"}
+{"severity":"INFO","time":"2021-02-18T17:44:51.237Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:44:51.236Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:46:56.372Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T17:47:03.948Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:47:56.307Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T17:47:58.477Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T17:48:23.720Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T17:48:24.043Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T17:48:24.044Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T18:00:03.977Z","correlation_id":"51a0b12087eb6dc4d7e44cf1ee6da12e","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T18:11:31.747Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T18:11:31.918Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T18:12:20.606Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T18:12:22.364Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T18:13:04.074Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T18:13:04.284Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T18:13:04.399Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T18:21:01.715Z","correlation_id":"d3f32e0fe5f9568e8f68415e7053bf01","message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T18:40:02.040Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T18:40:02.580Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T18:41:09.107Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T18:41:09.590Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T18:41:09.604Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T18:41:11.883Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T18:41:12.957Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:00:11.344Z","correlation_id":"3ebf79107b775d3b294f6e822786e12d","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T19:04:11.470Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:04:15.462Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:05:09.669Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T19:05:09.870Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:05:09.968Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:05:14.301Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:05:15.209Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:13:04.351Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:13:17.290Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:14:32.080Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:14:36.969Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:16:10.649Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T19:16:11.323Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:16:11.393Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:26:11.341Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:26:11.339Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:30:41.473Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:30:48.521Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:32:44.966Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T19:32:45.839Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:32:45.839Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:32:46.258Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:32:50.403Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"WARN","time":"2021-02-18T19:39:23.004Z","correlation_id":null,"message":"Gitlab::Metrics::Samplers::GlobalSearchSampler: Error connecting to Redis on /var/opt/gitlab/redis/redis.socket (Errno::ENOENT), stopping"}
+{"severity":"INFO","time":"2021-02-18T19:43:16.249Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:43:16.255Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:43:50.898Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:43:54.405Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:45:34.051Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T19:45:34.709Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:45:34.716Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:51:16.185Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:51:16.218Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:51:54.623Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:51:58.632Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:56:28.772Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T19:56:35.370Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:57:21.839Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T19:57:26.909Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T19:58:54.149Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T19:58:54.702Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T19:58:54.801Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T20:00:07.673Z","correlation_id":"17bab7c74ef6b2644c23238dfb991d53","message":"StuckCiJobsWorker: Cleaning stuck builds"}
+{"severity":"INFO","time":"2021-02-18T20:08:27.726Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T20:08:36.020Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T20:10:04.366Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T20:10:07.348Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T20:10:23.449Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T20:10:23.863Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T20:10:23.882Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T20:20:23.163Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-02-18T20:20:23.166Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T20:21:17.275Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-02-18T20:21:18.999Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-02-18T20:21:25.428Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-02-18T20:21:25.657Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-02-18T20:21:25.669Z","correlation_id":null,"message":"ActiveRecord connection established"}

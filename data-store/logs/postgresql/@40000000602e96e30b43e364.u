@@ -1,0 +1,24 @@
+2021-02-18_15:45:35.87536 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_15:45:35.87771 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_15:45:36.01189 LOG:  database system was interrupted; last known up at 2021-02-18 04:44:47 GMT
+2021-02-18_15:45:38.87591 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-18_15:45:38.87924 LOG:  invalid record length at 0/2FD6B40: wanted 24, got 0
+2021-02-18_15:45:38.87925 LOG:  redo is not required
+2021-02-18_15:45:38.92048 LOG:  database system is ready to accept connections
+2021-02-18_16:31:42.55799 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_16:31:42.55985 LOG:  received fast shutdown request
+2021-02-18_16:31:42.56283 LOG:  aborting any active transactions
+2021-02-18_16:31:42.57097 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57099 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57099 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57099 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57100 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57100 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57100 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57100 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57101 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57101 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57101 FATAL:  terminating connection due to administrator command
+2021-02-18_16:31:42.57649 LOG:  background worker "logical replication launcher" (PID 324) exited with exit code 1
+2021-02-18_16:31:42.57705 LOG:  shutting down
+2021-02-18_16:31:42.59192 LOG:  database system is shut down

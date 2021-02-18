@@ -1,0 +1,84 @@
+{"level":"info","msg":"Wrapper started","time":"2021-02-18T18:10:22Z","wrapper":268}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-18T18:10:22Z","wrapper":268}
+{"level":"info","msg":"spawning a process","time":"2021-02-18T18:10:22Z","wrapper":268}
+{"gitaly":273,"level":"info","msg":"monitoring gitaly","time":"2021-02-18T18:10:22Z","wrapper":268}
+time="2021-02-18T18:10:23Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-18T18:10:23Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-18T18:10:23Z" level=info msg="clearing disk cache object folder" path=/var/opt/gitlab/git-data/repositories
+time="2021-02-18T18:10:23Z" level=info msg="moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache279863514" path=/var/opt/gitlab/git-data/repositories
+time="2021-02-18T18:10:23Z" level=info msg="disk cache object folder doesn't exist, no need to remove" path=/var/opt/gitlab/git-data/repositories
+time="2021-02-18T18:10:23Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache" path=/var/opt/gitlab/git-data/repositories/+gitaly/cache
+time="2021-02-18T18:10:23Z" level=info msg="Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state" path=/var/opt/gitlab/git-data/repositories/+gitaly/state
+time="2021-02-18T18:10:23Z" level=info msg="cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache279863514 after 46.999µs" path=/var/opt/gitlab/git-data/repositories
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2021-02-18T18:10:24.195Z"}
+{"address":"/var/opt/gitlab/gitaly/internal_sockets/internal.sock","level":"info","msg":"listening at unix address","time":"2021-02-18T18:10:24.195Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2021-02-18T18:10:24.197Z","time_ms":0}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2021-02-18T18:10:24.213Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2021-02-18T18:10:24.231Z"}
+{"level":"warning","msg":"grpc: addrConn.createTransport failed to connect to {/var/opt/gitlab/gitaly/internal_sockets/ruby.0  \u003cnil\u003e 0 \u003cnil\u003e}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/internal_sockets/ruby.0: connect: connection refused\". Reconnecting...","pid":273,"system":"system","time":"2021-02-18T18:10:24.232Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2021-02-18T18:10:24.232Z"}
+{"level":"warning","msg":"grpc: addrConn.createTransport failed to connect to {/var/opt/gitlab/gitaly/internal_sockets/ruby.1  \u003cnil\u003e 0 \u003cnil\u003e}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/internal_sockets/ruby.1: connect: connection refused\". Reconnecting...","pid":273,"system":"system","time":"2021-02-18T18:10:24.232Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":289,"time":"2021-02-18T18:10:24.232Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":290,"time":"2021-02-18T18:10:24.232Z"}
+{"level":"info","msg":"PID 290 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2021-02-18T18:10:25.255Z"}
+{"level":"info","msg":"PID 289 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.0"],"supervisor.name":"gitaly-ruby.0","time":"2021-02-18T18:10:25.488Z"}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:10:34Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:13:18Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:14:40Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:15:16Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:15:16Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:15:25Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:16:31Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:17:21Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:17:25Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:17:25Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:18:19Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:09Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:09Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:09Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:18Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:28Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:28Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:19:46Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:20:24Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:21:08Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:21:08Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:21:25Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:21:57Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:22:40Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:22:57Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:24:01Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:24:01Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:24:35Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:24:35Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:25:07Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:25:13Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:25:41Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:26:03Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:26:12Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:26:46Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:26:49Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:28:46Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:28:49Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:29:44Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:29:49Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:29:51Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:29:56Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:31:27Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:31:27Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:31:27Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:32:01Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:32:01Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:33:17Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:33:25Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:33:53Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:34:06Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:34:33Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-18T18:35:57Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":18,"time":"2021-02-18T18:36:54Z","wrapper":268}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":15,"time":"2021-02-18T18:36:54Z","wrapper":268}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.0"],"supervisor.name":"gitaly-ruby.0","time":"2021-02-18T18:36:54.677Z"}
+{"error":"received signal \"terminated\"","level":"error","msg":"shutting down","time":"2021-02-18T18:36:54.680Z"}
+{"error":"signal: killed","level":"warning","msg":"exited","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","273","/var/opt/gitlab/gitaly/internal_sockets/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2021-02-18T18:36:54.678Z"}
+{"gitaly":273,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-18T18:36:54Z","wrapper":268}
+{"gitaly":273,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-18T18:36:55Z","wrapper":268}

@@ -1,0 +1,15 @@
+[0KRunning with gitlab-runner 13.8.0 (775dd39d)
+[0;m[0K  on docker-runner ckd-HWTy
+[0;msection_start:1613586589:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
+[0;m[0KUsing Docker executor with image alpine:latest ...
+[0;m[0KAuthenticating with credentials from /root/.docker/config.json
+[0;m[0KPulling docker image alpine:latest ...
+[0;m[0KUsing docker image sha256:e50c909a8df2b7c8b92a6e8730e210ebe98e5082871e66edd8ef4d90838cbd25 for alpine:latest with digest alpine@sha256:08d6ca16c60fe7490c03d10dc339d9fd8ea67c6466dea8d558526b1330a85930 ...
+[0;msection_end:1613586604:prepare_executor[0Ksection_start:1613586604:prepare_script[0K[0K[36;1mPreparing environment[0;m
+[0;mRunning on runner-ckd-hwty-project-2-concurrent-0 via 0d419e5de8cf...
+section_end:1613586606:prepare_script[0Ksection_start:1613586606:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
+[0;m[32;1mFetching changes with git depth set to 50...[0;m
+Reinitialized existing Git repository in /builds/root/cicd-telkomsel/.git/
+fatal: unable to access 'http://gitlab.example.com/root/cicd-telkomsel.git/': Could not resolve host: gitlab.example.com
+section_end:1613586608:get_sources[0K[31;1mERROR: Job failed: exit code 1
+[0;m

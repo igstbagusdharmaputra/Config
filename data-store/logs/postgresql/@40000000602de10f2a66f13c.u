@@ -1,0 +1,25 @@
+2021-02-18_03:04:37.46880 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_03:04:37.48329 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_03:04:37.73184 LOG:  database system was interrupted; last known up at 2021-02-17 19:38:49 GMT
+2021-02-18_03:04:40.35280 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-18_03:04:40.36377 LOG:  invalid record length at 0/2FD4F98: wanted 24, got 0
+2021-02-18_03:04:40.36379 LOG:  redo is not required
+2021-02-18_03:04:40.39274 LOG:  database system is ready to accept connections
+2021-02-18_03:35:15.94443 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_03:35:15.94529 LOG:  received fast shutdown request
+2021-02-18_03:35:15.95253 LOG:  aborting any active transactions
+2021-02-18_03:35:15.95256 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95256 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95257 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95257 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95257 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95258 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95258 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95258 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95386 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95389 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95452 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.95453 FATAL:  terminating connection due to administrator command
+2021-02-18_03:35:15.96165 LOG:  background worker "logical replication launcher" (PID 334) exited with exit code 1
+2021-02-18_03:35:15.96775 LOG:  shutting down
+2021-02-18_03:35:15.98917 LOG:  database system is shut down

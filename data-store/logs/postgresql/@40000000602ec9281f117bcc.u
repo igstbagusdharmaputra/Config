@@ -1,0 +1,45 @@
+2021-02-18_19:54:07.32680 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_19:54:07.34665 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_19:54:07.43782 LOG:  database system was interrupted; last known up at 2021-02-18 19:49:14 GMT
+2021-02-18_19:54:11.72096 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-18_19:54:11.73816 LOG:  invalid record length at 0/2FDF198: wanted 24, got 0
+2021-02-18_19:54:11.73821 LOG:  redo is not required
+2021-02-18_19:54:11.83112 LOG:  database system is ready to accept connections
+2021-02-18_19:54:12.15644 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_19:54:12.15650 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_19:54:12.15651 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_19:54:12.47747 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_19:54:12.47749 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_19:54:12.47750 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_19:54:12.78135 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_19:54:12.78960 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_19:54:12.78963 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_20:00:37.60037 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_20:00:37.60675 LOG:  received fast shutdown request
+2021-02-18_20:00:37.61920 LOG:  aborting any active transactions
+2021-02-18_20:00:37.61923 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61924 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61924 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61925 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61925 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61925 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61926 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61926 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61926 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61927 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61927 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61927 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61928 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61928 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61928 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61929 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61929 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.61948 LOG:  background worker "logical replication launcher" (PID 333) exited with exit code 1
+2021-02-18_20:00:37.62389 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.62392 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.62396 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.63239 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.63240 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.63240 FATAL:  terminating connection due to administrator command
+2021-02-18_20:00:37.63279 LOG:  shutting down
+2021-02-18_20:00:37.64650 LOG:  database system is shut down

@@ -1,0 +1,41 @@
+2021-02-18_18:10:29.05275 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-18_18:10:29.07150 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-18_18:10:29.14737 LOG:  database system was shut down at 2021-02-18 18:09:31 GMT
+2021-02-18_18:10:29.15200 LOG:  database system is ready to accept connections
+2021-02-18_18:10:32.47403 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_18:10:32.47410 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_18:10:32.47410 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_18:10:32.64263 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_18:10:32.64268 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_18:10:32.64268 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_18:10:32.74684 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-18_18:10:32.74688 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-18_18:10:32.74688 DETAIL:  Connection matched pg_hba.conf line 71: "local   all         all                               peer map=gitlab"
+2021-02-18_18:36:58.48606 LOG:  could not send data to client: Broken pipe
+2021-02-18_18:36:58.48673 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-18_18:36:58.48673 	       relname as relname,
+2021-02-18_18:36:58.48674 	       pg_total_relation_size(oid) bytes
+2021-02-18_18:36:58.48674 	  FROM pg_class
+2021-02-18_18:36:58.48674 	 WHERE relkind = 'r';
+2021-02-18_18:36:58.48674 	
+2021-02-18_18:36:58.48674 FATAL:  connection to client lost
+2021-02-18_18:36:58.48675 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-18_18:36:58.48675 	       relname as relname,
+2021-02-18_18:36:58.48675 	       pg_total_relation_size(oid) bytes
+2021-02-18_18:36:58.48675 	  FROM pg_class
+2021-02-18_18:36:58.48676 	 WHERE relkind = 'r';
+2021-02-18_18:36:58.48676 	
+2021-02-18_18:36:58.92241 received TERM from runit, sending INT instead to force quit connections
+2021-02-18_18:36:58.92357 LOG:  received fast shutdown request
+2021-02-18_18:36:58.93478 LOG:  aborting any active transactions
+2021-02-18_18:36:58.93480 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93480 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93480 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93480 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93481 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93481 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93481 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93481 FATAL:  terminating connection due to administrator command
+2021-02-18_18:36:58.93514 LOG:  background worker "logical replication launcher" (PID 317) exited with exit code 1
+2021-02-18_18:36:58.93549 LOG:  shutting down
+2021-02-18_18:36:58.94637 LOG:  database system is shut down

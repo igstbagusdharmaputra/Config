@@ -1,0 +1,64 @@
+2021-02-18_03:37:29.62419 252:C 18 Feb 2021 03:37:29.624 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-18_03:37:29.62426 252:C 18 Feb 2021 03:37:29.624 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=252, just started
+2021-02-18_03:37:29.62426 252:C 18 Feb 2021 03:37:29.624 # Configuration loaded
+2021-02-18_03:37:29.62552 252:M 18 Feb 2021 03:37:29.625 * Running mode=standalone, port=0.
+2021-02-18_03:37:29.62561 252:M 18 Feb 2021 03:37:29.625 # Server initialized
+2021-02-18_03:37:29.62565 252:M 18 Feb 2021 03:37:29.625 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2021-02-18_03:37:29.62587 252:M 18 Feb 2021 03:37:29.625 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-18_03:37:29.62828 252:M 18 Feb 2021 03:37:29.628 * DB loaded from disk: 0.002 seconds
+2021-02-18_03:37:29.62830 252:M 18 Feb 2021 03:37:29.628 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-02-18_03:42:30.08437 252:M 18 Feb 2021 03:42:30.084 * 10 changes in 300 seconds. Saving...
+2021-02-18_03:42:30.08499 252:M 18 Feb 2021 03:42:30.084 * Background saving started by pid 1242
+2021-02-18_03:42:30.09976 1242:C 18 Feb 2021 03:42:30.099 * DB saved on disk
+2021-02-18_03:42:30.10075 1242:C 18 Feb 2021 03:42:30.100 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_03:42:30.18516 252:M 18 Feb 2021 03:42:30.185 * Background saving terminated with success
+2021-02-18_03:47:31.08784 252:M 18 Feb 2021 03:47:31.087 * 10 changes in 300 seconds. Saving...
+2021-02-18_03:47:31.08867 252:M 18 Feb 2021 03:47:31.088 * Background saving started by pid 1785
+2021-02-18_03:47:31.10607 1785:C 18 Feb 2021 03:47:31.106 * DB saved on disk
+2021-02-18_03:47:31.10700 1785:C 18 Feb 2021 03:47:31.106 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_03:47:31.19056 252:M 18 Feb 2021 03:47:31.190 * Background saving terminated with success
+2021-02-18_03:52:32.09509 252:M 18 Feb 2021 03:52:32.094 * 10 changes in 300 seconds. Saving...
+2021-02-18_03:52:32.10142 252:M 18 Feb 2021 03:52:32.095 * Background saving started by pid 2331
+2021-02-18_03:52:32.11198 2331:C 18 Feb 2021 03:52:32.111 * DB saved on disk
+2021-02-18_03:52:32.11245 2331:C 18 Feb 2021 03:52:32.112 * RDB: 2 MB of memory used by copy-on-write
+2021-02-18_03:52:32.19678 252:M 18 Feb 2021 03:52:32.196 * Background saving terminated with success
+2021-02-18_03:57:33.05583 252:M 18 Feb 2021 03:57:33.055 * 10 changes in 300 seconds. Saving...
+2021-02-18_03:57:33.05700 252:M 18 Feb 2021 03:57:33.056 * Background saving started by pid 2872
+2021-02-18_03:57:33.07273 2872:C 18 Feb 2021 03:57:33.072 * DB saved on disk
+2021-02-18_03:57:33.07315 2872:C 18 Feb 2021 03:57:33.073 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_03:57:33.15786 252:M 18 Feb 2021 03:57:33.157 * Background saving terminated with success
+2021-02-18_04:02:34.04611 252:M 18 Feb 2021 04:02:34.046 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:02:34.04664 252:M 18 Feb 2021 04:02:34.046 * Background saving started by pid 3428
+2021-02-18_04:02:34.06229 3428:C 18 Feb 2021 04:02:34.062 * DB saved on disk
+2021-02-18_04:02:34.06306 3428:C 18 Feb 2021 04:02:34.063 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_04:02:34.14840 252:M 18 Feb 2021 04:02:34.148 * Background saving terminated with success
+2021-02-18_04:07:35.01248 252:M 18 Feb 2021 04:07:35.012 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:07:35.01883 252:M 18 Feb 2021 04:07:35.012 * Background saving started by pid 3969
+2021-02-18_04:07:35.02501 3969:C 18 Feb 2021 04:07:35.024 * DB saved on disk
+2021-02-18_04:07:35.02565 3969:C 18 Feb 2021 04:07:35.025 * RDB: 0 MB of memory used by copy-on-write
+2021-02-18_04:07:35.11357 252:M 18 Feb 2021 04:07:35.113 * Background saving terminated with success
+2021-02-18_04:12:36.10212 252:M 18 Feb 2021 04:12:36.100 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:12:36.10216 252:M 18 Feb 2021 04:12:36.101 * Background saving started by pid 4503
+2021-02-18_04:12:36.11428 4503:C 18 Feb 2021 04:12:36.114 * DB saved on disk
+2021-02-18_04:12:36.11478 4503:C 18 Feb 2021 04:12:36.114 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_04:12:36.20482 252:M 18 Feb 2021 04:12:36.204 * Background saving terminated with success
+2021-02-18_04:17:37.05113 252:M 18 Feb 2021 04:17:37.050 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:17:37.05119 252:M 18 Feb 2021 04:17:37.050 * Background saving started by pid 5043
+2021-02-18_04:17:37.06325 5043:C 18 Feb 2021 04:17:37.063 * DB saved on disk
+2021-02-18_04:17:37.06383 5043:C 18 Feb 2021 04:17:37.063 * RDB: 1 MB of memory used by copy-on-write
+2021-02-18_04:17:37.15268 252:M 18 Feb 2021 04:17:37.152 * Background saving terminated with success
+2021-02-18_04:22:38.00939 252:M 18 Feb 2021 04:22:38.009 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:22:38.01037 252:M 18 Feb 2021 04:22:38.010 * Background saving started by pid 5574
+2021-02-18_04:22:38.02968 5574:C 18 Feb 2021 04:22:38.029 * DB saved on disk
+2021-02-18_04:22:38.03019 5574:C 18 Feb 2021 04:22:38.030 * RDB: 2 MB of memory used by copy-on-write
+2021-02-18_04:22:38.11204 252:M 18 Feb 2021 04:22:38.111 * Background saving terminated with success
+2021-02-18_04:27:39.03082 252:M 18 Feb 2021 04:27:39.030 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:27:39.03187 252:M 18 Feb 2021 04:27:39.031 * Background saving started by pid 6113
+2021-02-18_04:27:39.04351 6113:C 18 Feb 2021 04:27:39.043 * DB saved on disk
+2021-02-18_04:27:39.04430 6113:C 18 Feb 2021 04:27:39.044 * RDB: 0 MB of memory used by copy-on-write
+2021-02-18_04:27:39.13336 252:M 18 Feb 2021 04:27:39.133 * Background saving terminated with success
+2021-02-18_04:32:40.02920 252:M 18 Feb 2021 04:32:40.029 * 10 changes in 300 seconds. Saving...
+2021-02-18_04:32:40.03348 252:M 18 Feb 2021 04:32:40.033 * Background saving started by pid 6650
+2021-02-18_04:32:40.04248 6650:C 18 Feb 2021 04:32:40.042 * DB saved on disk
+2021-02-18_04:32:40.04327 6650:C 18 Feb 2021 04:32:40.043 * RDB: 0 MB of memory used by copy-on-write
+2021-02-18_04:32:40.13459 252:M 18 Feb 2021 04:32:40.134 * Background saving terminated with success
