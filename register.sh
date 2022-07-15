@@ -1,7 +1,7 @@
 registration_token=GR1348941SYQiJ1Us4S1gDCjrPgoq
 url=http://gitlab.example.com/
 
-docker exec -it gitlab-runner \
+docker exec  gitlab-runner bash -c "
   gitlab-runner register \
     --non-interactive \
     --registration-token ${registration_token} \
@@ -10,4 +10,5 @@ docker exec -it gitlab-runner \
     --url ${url} \
     --executor docker \
     --docker-image docker:stable \
-    --docker-network-mode gitlab-on-docker_gitlabnetwork
+    --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" \
+    --docker-network-mode gitlab-on-docker_gitlabnetwork "
